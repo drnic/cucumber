@@ -15,6 +15,8 @@ class CucumberGenerator < Rails::Generator::Base
       m.directory 'lib/tasks'
       m.file      'cucumber.rake', 'lib/tasks/cucumber.rake'
       m.file      'cucumber',      'script/cucumber',        script_options
+
+      m.file 	  'cucumber.yml', 'cucumber.yml'
     end
   end
 
